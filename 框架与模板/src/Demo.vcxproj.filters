@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Demo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Start.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rock.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Brick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\start_yu_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj20.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj30.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj40.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\贝丝50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\贝丝100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰瑞50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰瑞100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\莫蒂50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\莫蒂100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\瑞克50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\瑞克100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\桑美50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\桑美100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\雪球50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\雪球100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\笨蛋杰瑞200bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\老实莫蒂200bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶莫蒂200bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶瑞克200bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\游戏结束bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白瑞克50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\警戒线.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\手痒.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\掀桌.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\no.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\yes.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰西卡100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\数学老师100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\Windows背景.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\胜利.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\人上人结算画面.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\人上人结算画面_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\雪球100bmp - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\finish按键.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白贝丝50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白杰瑞50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰西卡50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\数学老师50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\使命必达100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白数学老师50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\总统50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\使命必达50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白总统50bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\总统100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向上箭头100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向下箭头100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向右箭头100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向左箭头100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\start按钮.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶莫蒂小图35bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\梦游杰瑞100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\全家福bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\向右箭头.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\向左箭头.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\笨蛋杰瑞150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\老实莫蒂150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶莫蒂150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶瑞克150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰西卡150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\梦游杰瑞150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\使命必达150bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\-.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\+.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白贝丝100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白杰瑞100bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

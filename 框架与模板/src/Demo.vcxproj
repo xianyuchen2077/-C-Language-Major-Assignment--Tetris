@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{15ae2730-d256-4963-9fd5-76f4bad06737}</ProjectGuid>
+    <RootNamespace>Demo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\使命必达100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\使命必达150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\使命必达50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\全家福bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向上箭头100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向下箭头100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向右箭头100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\向左箭头100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\总统100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\总统50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\数学老师100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\数学老师50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰瑞100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰瑞50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰西卡100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰西卡150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\杰西卡50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\桑美100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\桑美50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\梦游杰瑞100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\梦游杰瑞150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\瑞克100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\瑞克50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\笨蛋杰瑞150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\笨蛋杰瑞200bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\老实莫蒂150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\老实莫蒂200bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\莫蒂100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\莫蒂50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\贝丝100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\贝丝50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶瑞克150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶瑞克200bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶莫蒂150bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶莫蒂200bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\邪恶莫蒂小图35bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\雪球100bmp - 副本.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\雪球100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\雪球50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白总统50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白数学老师50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白杰瑞100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白杰瑞50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白瑞克50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白贝丝100bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\rick and morty\黑白贝丝50bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\+.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\-.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj10.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj20.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj30.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\dj40.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\finish按键.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\no.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\start_yu_2.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\start按钮.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\Windows背景.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\yes.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\人上人结算画面.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\人上人结算画面_2.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\向右箭头.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\向左箭头.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\手痒.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\掀桌.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\游戏结束bmp.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\胜利.bmp" />
+    <Image Include="..\..\..\行而上学\程序设计基础\编程\大作业\素材库\像素风背景图\警戒线.bmp" />
+    <Image Include="Demo.ico" />
+    <Image Include="res\Brick.bmp" />
+    <Image Include="res\Rock.bmp" />
+    <Image Include="res\Start.bmp" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
